@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form 2</title>
+  <style>
+    fieldset {
+      width: 40%;
+      background: papayawhip;
+      line-height: 30px;
+    }
+    h1 {
+      background: aquamarine;
+      color: mediumblue;
+    }
+    .xanh {
+      color: dodgerblue;
+    }
+    .a1 {
+      margin-right: 30px;
+    }
+    .a2 {
+      margin-right: 33px;
+    }
+    .a3 {
+      margin-right: 33px;
+    }
+    .a4 {
+      vertical-align: top;
+      margin-right: 50px;
+    }
+    .a5 {
+      margin-right: 73px;
+    }
+    .a6 {
+      margin-right: 61px;
+    }
+    .a7 {
+      margin-right: 27px;
+    }
+    .submit {
+      margin-left: 105px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <fieldset>
+    <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+    <label class="a1 xanh">Họ Và Tên</label>
+
+    <input type="text" name="Fullname" style="width: 450px">
+    <br>
+    <label class="a2 xanh">Ngày Sinh</label>
+    <input type="date" name="Date of birth" style="width: 400px"><br>
+    <label class="a3 xanh">Giới Tính</label>
+    <input type="radio" name="sex"><label>Nam</label><input  type="radio" name="sex"><label>Nữ</label><br>
+    <label class="a4 xanh">Địa Chỉ</label>
+    <textarea name="address" cols="30" rows="3"></textarea><br>
+    <label class="a5 xanh">Lớp</label>
+    <select name="Class">
+      <option value="">Chọn Lớp</option>
+      <option value="1A">Lớp 1A</option>
+      <option VALUE="3A">Lớp 3A</option>
+    </select><br>
+    <label class="a6 xanh">Email</label>
+    <input type="email" name="email"><br>
+    <label class="a7 xanh">Điện Thoại</label>
+    <input type="number" name="Phone"><br>
+    <input class="submit" type="submit" value="Đăng Ký"><input type="reset" value="Nhập Lại">
+  </fieldset>
+</form>
+</body>
+</html>
